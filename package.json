@@ -1,0 +1,41 @@
+{
+  "name": "strapi-won-games",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "dev": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "jsdom": "^20.0.2",
+    "knex": "<0.20.0",
+    "pg": "latest",
+    "slugify": "^1.6.5",
+    "strapi": "3.1.2",
+    "strapi-admin": "3.1.2",
+    "strapi-connector-bookshelf": "3.1.2",
+    "strapi-plugin-ckeditor5": "0.1.4",
+    "strapi-plugin-content-manager": "3.1.2",
+    "strapi-plugin-content-type-builder": "3.1.2",
+    "strapi-plugin-email": "3.1.2",
+    "strapi-plugin-graphql": "3.1.2",
+    "strapi-plugin-upload": "3.1.2",
+    "strapi-plugin-users-permissions": "3.1.2",
+    "strapi-utils": "3.1.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "22296a55-4f31-4565-ac6c-bc6bb726c301"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
