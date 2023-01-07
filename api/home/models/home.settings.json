@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "newGames": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-fileld.section"
+    },
+    "upcomingGames": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-fileld.section"
+    },
+    "freeGames": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-fileld.section"
+    },
+    "popularGames": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-fileld.popular-games"
+    }
+  }
+}
