@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     provider: 'nodemailer',
     providerOptions: {
       host: 'localhost',
-      port: 1025,
+      port: 1030,
       ignoreTLS: true,
     },
   },
